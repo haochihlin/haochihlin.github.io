@@ -1,0 +1,169 @@
+<!DOCTYPE HTML>
+<!--
+	Halcyonic by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>HaoChih Lin | Projects</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="shortcut icon" href="images/favicon.png">
+		<link rel="stylesheet" href="assets/css/main.css" />
+	</head>
+	<body class="subpage">
+		<div id="page-wrapper">
+
+			<!-- Header -->
+				<section id="header">
+					<div class="container">
+						<div class="row">
+							<div class="col-12">
+
+								<!-- Logo -->
+									<h1><a href="index.html" id="logo">HaoChih Lin</a></h1>
+
+								<!-- Nav -->
+								<nav id="nav">
+									<a href="index.html">About</a>
+									<a href="index.html#publications">Publications</a>
+									<a href="projects.html">Projects</a>
+									<a href="documents/CV_HaoChih-LIN_2020-11.pdf">Vitae</a>
+								</nav>
+
+							</div>
+						</div>
+					</div>
+				</section>
+
+			<!-- Features -->
+			<section id="content">
+				<div class="container" id="publications">
+					<div class="row">
+						<div class="col-12">
+							<section>
+								<header>
+									<h2>Projects</h2>
+								</header>
+								<div class="publications">
+									<img class="pic" src="images/semester.png" alt="" />
+									<div class="txt">
+										<p>[2019] Semester Project (<a href="https://rsl.ethz.ch/" style="color:#29407C;">ETHZ-RSL</a>): Learning Continuous Time Dynamics using ODENets.</p>
+										<p>Advisor: Vassilios Tsounis, 
+										            Dr. Farbod Farshidian, 
+										            Prof. Dr. Hutter, Marco. 
+										</p>
+										<p>Abstract: Integrate Mixture Density Network (MDN) with Neural ODE to l earn continuous actuated hybrid dynamics (the legged robot with different gaits). The results achieved SOTA accuracy for multi-steps (200 steps forward) trajectory prediction.
+										</p>
+										<p>
+											[<a href="https://drive.google.com/file/d/1mC3UHotQo7rNBEgoOB7rztef6fy25AXj/view?usp=sharing">Slides</a>]
+										</p>
+									</div>
+								</div>
+								<div class="publications">
+									<img class="pic" src="images/course.png" alt="" />
+									<div class="txt">
+										<p>[2019] Course Project (<a href="https://asl.ethz.ch/" style="color:#29407C;">ETHZ-ASL</a>): Inter-modality Representation Learning.</p>
+										<p>Team: Juan-Ting Lin and <span class="strong">HaoChih Lin</span>
+										</p>
+										<p>Abstract: In this project, we aim to find shared and exchangeable representations for both vision and LiDAR modalities. In this manner, both map construction and navigation can be achieved by using either LiDAR or vision. We proposed a network architecture with separate encoders for the two modalities and shared decoder for both interest point and descriptor predictions.
+										</p>
+										<p>
+											[<a href="https://drive.google.com/file/d/1VD4tC2PgU7WM6TFD2gFWKCZ3JO5-F-lm/view?usp=sharing">Report</a>]
+										</p>
+									</div>
+								</div>
+								<div class="publications">
+									<img class="pic" src="images/minicar.png" alt="" />
+									<div class="txt">
+										<p>[2018] HyphaROS: 1/20 2-layer MPC based Autonomous MiniCar. </p>
+										<p>Features:
+											Nonlinear Bicycle Model Based MPC (through ipopt solver),
+											Pure-Pursuit Controller,
+											Onboard mapping (Gmapping, Hector-SLAM, Karto-SLAM, MRPT-ICP)
+											STM32 for motor speed closed-loop control,
+											AMCL localization (encoder-odometry based),
+											Dynamic obstacle avoidance,
+											Stage Simulation (supports: MPC & Pure-Pursuit) 
+										</p>
+										<p>
+											[<a href="https://github.com/Hypha-ROS/hypharos_minicar">Github</a>] 
+											[<a href="https://drive.google.com/file/d/1yX0aeA4spf_szpxXFpIlH0EQKIgiwJx7/view">Slides</a>]
+										</p>
+									</div>
+								</div>
+								<div class="publications">
+									<img class="pic" src="images/neuronbot.png" alt="" />
+									<div class="txt">
+										<p>[2018] ADLINK: NeuronBot (People Tracking Mobile Platform).</p>
+										<p>Abstract: The purpose of this pkg is to demonstrate two main features of ADLINK Neuron miniITX platform. The host robot (for following) is publishing its own pose with respect to known map through ROS2/DDS layer while following a human. On the other hand, the client robot (random wandering), could avoid the host robot by receiving host's pose and replaning its path.
+										</p>
+										<p>
+											[<a href="https://youtu.be/qA4_Hmnd_tM">Video</a>]
+											[<a href="https://github.com/Adlink-ROS/adlink_neuronbot">Github</a>] 
+											[<a href="https://rosindustrial.org/news/2018/3/23/ros-industrial-americas-2018-annual-meeting-review">Presentation</a>]
+										</p>
+									</div>
+								</div>
+								<div class="publications">
+									<img class="pic" src="images/ddsbot.png" alt="" />
+									<div class="txt">
+										<p>[2017] ADLINK: DDSBot (ROS 1.0/2.0 based swarm robots architecture).</p>
+										<p>Abstract: The prototype of swarm robots architecture using ROS 2.0 with Opensplice DDS.
+										</p>
+										<p>
+											[<a href="https://www.youtube.com/watch?v=7ZIDkLKD4Y8">Video</a>]
+											[<a href="https://github.com/Adlink-ROS/adlink_ddsbot">Github</a>] 
+										</p>
+									</div>
+								</div>
+								<div class="publications">
+									<img class="pic" src="images/HyphaRaceCar.jpg" alt="" />
+									<div class="txt">
+										<p>[2017] HyphaROS: 1/10 High-speed (~3m/s), Low-cost Autonomous Race Car.</p>
+										<p>Features: We present a low-cost (~600USD), high speed, fully autonomous 1/10 rc car platform, called Hypha RaceCar. Instead of using high-end sensors/SBC like: hokuyo laser, Nvidia TX1, etc., our platform replace all expensive components with low-cost product (Odroid XU4, RPLidar A1, GY85 ...). The performance of high-end racecar, e.g. MIT RaceCar, is around 4 m/s (~3600USD), in contrast, Hypha RaceCar is able to achieve 3 m/s !
+										</p>
+										<p>
+											[<a href="https://www.youtube.com/watch?v=jgS6gpmWPoY&ab_channel=HyphaROSworkshop">Video</a>]
+											[<a href="https://github.com/Hypha-ROS/hypharos_racecar">Github</a>] 
+											[<a href="https://github.com/Hypha-ROS/hypharos_racecar/blob/ver.1-release/document/Hypha-ROS-RaceCar-Tutorial_V1.1.pdf">Tutorial</a>]
+										</p>
+									</div>
+								</div>
+								<div class="publications">
+									<img class="pic" src="images/ardrone.png" alt="" />
+									<div class="txt">
+										<p>[2015] Bachelor Project (<a href="http://www.iaa.ncku.edu.tw/app/index.php?Lang=en" style="color:#29407C;">NCKU-DAA</a>): ARDrone Autonomous Indoor Navigation by 3D SLAM.</p>
+										<p>Advisor: Prof. Dr. Tarn, Jiun-Hao.
+										</p>
+										<p>Abstract: This project aims to make ARDrone 2.0 automatically explore unknown area and avoid obstacle by using OctoMap created from lsd_slam. It	uses recursive least square algorithm to caculate the transfer function of tum_ardrone/pose (in real size) and LSD_slam/pose (nonscale). After recursive least square converges completely, we used this transfer function to convert nonscale point cloud map from LSD_slam to real world's map which is used for navigation.
+										</p>
+										<p>
+											[<a href="https://youtu.be/r9LegSK6MfU">Video</a>]
+											[<a href="https://github.com/Hypha-ROS/hypharos_ardrone_navigation">Github</a>]
+										</p>
+									</div>
+								</div>
+							</section>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- Copyright -->
+			<div id="copyright">
+				© Copyright 2020 Haochih Lin. Powered by <a href="http://html5up.net">HTML5 UP</a>. Hosted by GitHub Pages.
+			</div>
+
+		</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
